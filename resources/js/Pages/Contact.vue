@@ -1,16 +1,22 @@
 <script setup>
+
 import Layout from './Layouts/Layout.vue'
 
 defineOptions({
   layout: Layout,
 })
+
 defineProps({
-  user: Object,
+    title: String
 })
 
 </script>
 
+
 <template>
-      <Head title="Home" />
-      <h1>Home Vue, {{ user.name }}</h1>
+      <Head title="Contact" />
+
+    
+    <h1> From {{ title }} </h1>
+
 </template>

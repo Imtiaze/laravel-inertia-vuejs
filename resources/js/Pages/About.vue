@@ -4,13 +4,12 @@ import Layout from './Layouts/Layout.vue'
 defineOptions({
   layout: Layout,
 })
-defineProps({
-  user: Object,
-})
 
 </script>
 
 <template>
-      <Head title="Home" />
-      <h1>Home Vue, {{ user.name }}</h1>
+
+          <Head title="About" />
+
+      <h1>Home Vue, About Page</h1>
 </template>

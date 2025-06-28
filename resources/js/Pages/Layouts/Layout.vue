@@ -14,8 +14,8 @@
             <nav class="p-4">
                 <div class="flex space-x-6 text-lg font-medium">
                     <Link :href="route('home')" class="hover:text-blue-200 transition">Home</Link>
-                    <Link href="/about" class="hover:text-blue-200 transition">About</Link>
-                    <Link href="/contact" class="hover:text-blue-200 transition">Contact</Link>
+                    <Link :href="route('about')" class="hover:text-blue-200 transition">About</Link>
+                    <Link :href="route('contact')" class="hover:text-blue-200 transition">Contact</Link>
                 </div>
             </nav>
         </header>
